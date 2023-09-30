@@ -1,0 +1,23 @@
+.all {
+    height: 90vh;
+}
+
+.uploadBtns {
+    margin: 10px;
+  }
+  
+  .uploadedImage {
+    border-radius: 10px;
+  }
+  
+  .imageArea {
+    display: flex;
+  }
+  
+  .uploadImageAreaInModal img {
+    width: 450px;
+  }
+  
+  .infoBox {
+    margin: 15px 0 15px 0;
+  }

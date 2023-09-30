@@ -1,0 +1,112 @@
+.pagination {
+    display: flex;
+
+}
+
+.page-link {
+    width: 31px;
+    height: 30px;
+    list-style: none;
+    margin: 0 2px;
+    text-align: center;
+    padding: 0 10px !important;
+    cursor: pointer;
+    height: 100%;
+    user-select: none;
+}
+
+.page-item {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    list-style: none;
+    border: 1px solid black;
+    margin: 0 5px;
+    text-align: center;
+
+    cursor: pointer;
+    transition-duration: 350ms;
+}
+
+.page-item a {
+    display: block;
+    user-select: none;
+    width: 30px !important;
+    height: 30px !important;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-item:hover {
+    background-color: gray;
+}
+
+.active {
+    background-color: black;
+    color: white;
+}
+
+.next {
+    width: auto;
+    background-color: black;
+    color: white;
+    border-radius: 0;
+}
+
+.mainboxa {
+    border: 3px solid #333;
+    width: 250px;
+    height: 260px;
+    position: relative;
+}
+
+.mainimagea {
+    width: 100%;
+    min-height: 260px;
+    max-height: 260px;
+}
+
+.mainimagea:hover {
+    transition-duration: 200ms;
+}
+
+.allas {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 10px;
+    flex-flow: row wrap;
+}
+
+.archive {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 40px;
+    padding: 3px 5px;
+    background-color: orange;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.urgent {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 150px;
+    height: 40px;
+    padding: 3px 5px;
+    background-color: rgb(49, 49, 235);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}

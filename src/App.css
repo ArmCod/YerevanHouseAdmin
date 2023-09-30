@@ -1,0 +1,297 @@
+.App {
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: #f5f2ed94;
+}
+
+.staxko {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  overflow: auto !important;
+}
+
+.link-text {
+  padding: 6px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: montserrat, sans-serif;
+  font-weight: 700;
+}
+
+.container {
+  width: 1170px;
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+
+}
+
+.statement {
+  width: 880px;
+  max-width: 880px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.box {
+  width: 260px;
+}
+
+.header {
+  height: 65px;
+  padding: 0;
+  background-color: black;
+  color: #f6b94f;
+  width: 100%;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.info_box {
+  margin: 0 20px 0 0;
+}
+
+.title {
+  font-weight: 300;
+  font-size: 50px;
+  width: 200px;
+  white-space: nowrap;
+  margin-left: 10px;
+  color: #f6b94f;
+}
+
+.editImage {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  user-select: none;
+  background-color: rgb(44, 171, 171);
+  cursor: pointer;
+  text-transform: uppercase;
+  transition-duration: 400ms;
+  margin: 10px 0px;
+  padding: 5px;
+  color: white;
+  border-radius: 3px;
+}
+
+.editImage:hover {
+  background-color: blue;
+}
+
+.addImage {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  user-select: none;
+  background-color: green;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition-duration: 400ms;
+  margin: 10px 0px;
+  padding: 5px;
+  color: white;
+  border-radius: 3px;
+}
+
+.addImage:hover {
+  background-color: rgb(1, 46, 1);
+}
+
+.editImage:hover {
+  background-color: blue;
+}
+
+.abs {
+  position: absolute;
+  top: 10px;
+  right: 3px;
+}
+
+.verticalHours {
+  width: 70px;
+  max-height: 270px;
+  border: 1px solid #4e8cb8;
+  margin-left: 10px;
+
+  box-sizing: border-box;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+  cursor: pointer;
+}
+
+.verticalHours::-webkit-scrollbar {
+  width: 8px;
+
+}
+
+/* Track */
+.verticalHours::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* Handle */
+.verticalHours::-webkit-scrollbar-thumb {
+  background: skyblue;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.verticalHours::-webkit-scrollbar-thumb:hover {
+  background: rgb(166, 220, 241);
+}
+
+.activeHoure {
+  padding: 0;
+  background: #4e8cb8;
+  color: #e0dada;
+}
+
+.asdasdasd {
+
+  color: blue;
+  position: relative;
+
+}
+
+.asdasdasd::before {
+
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: red;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+
+
+}
+
+/* .react-calendar__tile--double+.react-calendar__tile--double {
+  display: none;
+} */
+
+abbr {
+  display: none;
+}
+
+.disabled-tile {
+
+  display: block;
+  width: 100%;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  color: white;
+
+}
+
+.react-calendar__tile.react-calendar__month-view__days__day.disabled {
+  padding: 0;
+}
+
+.disabledHour {
+  background-color: red;
+}
+
+.activeHour {
+  background-color: #006edc;
+  color: white;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 91%;
+  }
+}
+
+@media (max-width: 800px) {
+  .title {
+    font-size: 30px;
+  }
+
+  .abs {
+    top: 2px;
+  }
+}
+
+@media (max-width: 550px) {
+  .header {
+    height: 100px;
+  }
+
+  .title {
+    margin-top: 20px;
+  }
+
+  .abs {
+    position: relative;
+    left: 4px;
+    left: auto;
+
+  }
+}
+
+.css-1n4twyu-MuiInputBase-input-MuiOutlinedInput-input {
+  background-color: white !important;
+}
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  background-color: white !important;
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  background-color: white !important;
+}
+
+.loading {
+  position: fixed;
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  opacity: 0.7;
+  z-index: 9998;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+}
+
+.last-calendar {
+  width: 428px;
+  padding: 10px;
+
+}
+
+.last-calendar-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.bothinp {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 2px;
+}
+
+.bothinp p {
+  font-size: 12px;
+}
+
+.date-input:disabled {
+  filter: grayscale(1);
+  cursor: not-allowed;
+  opacity: 0.5;
+}

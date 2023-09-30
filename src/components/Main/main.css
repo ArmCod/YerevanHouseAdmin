@@ -1,0 +1,40 @@
+.mainbox {
+    border: 3px solid #333;
+    width: 250px;
+    display: flex;
+    padding: 5px 5px 0 5px;
+    flex-direction: column;
+}
+
+.mainimage {
+    width: 100%;
+    height: 210px;
+    transition-duration: 200ms;
+}
+
+.mainimage:hover {
+
+    opacity: 0.9;
+}
+
+.all {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 40px;
+    flex-flow: row wrap;
+}
+
+.item-name {
+    padding: 20px;
+    font-size: 14px;
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    color: #333;
+    transition-duration: 600ms;
+}
+
+.item-name:hover {
+    color: rgb(13, 179, 13);
+}

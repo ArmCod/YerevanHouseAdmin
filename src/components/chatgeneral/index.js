@@ -40,7 +40,6 @@ const ChatGeneralComponent = () => {
       .catch(() => console.log("error"));
   };
 
-  console.log(messagesData);
   return (
     <>
       <div style={{ margin: "0 0 10px 10px" }}>
